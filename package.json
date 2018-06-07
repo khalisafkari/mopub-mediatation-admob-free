@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-mediation-mopub-free",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "show ads mopub with mediatation admob-free",
   "cordova": {
     "id": "cordova-plugin-mediation-mopub-free",
