@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-mediation-mopub-free",
+  "version": "0.1.0",
+  "description": "show ads mopub with mediatation admob-free",
+  "cordova": {
+    "id": "cordova-plugin-mediation-mopub-free",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalisafkari/mopub-mediatation-admob-free.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "khalis afkari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khalisafkari/mopub-mediatation-admob-free/issues"
+  },
+  "homepage": "https://github.com/khalisafkari/mopub-mediatation-admob-free#readme"
+}

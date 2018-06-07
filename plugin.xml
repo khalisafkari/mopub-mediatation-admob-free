@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<plugin id="cordova-plugin-mediation-mopub-free" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<name>mediatation-mopub</name>
+
+
+<platform name="android">
+
+	<config-file parent="/*" target="res/xml/config.xml">
+
+		<feature name="mediatation-mopub">
+			<param name="android-package" value="cordova-plugin-mediation-mopub-free.mediatation-mopub" />
+		</feature>
+
+	</config-file>
+
+	<config-file parent="/*" target="AndroidManifest.xml">
+		<activity android:name="com.mopub.mobileads.MoPubActivity"
+	          android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+		<activity android:name="com.mopub.mobileads.MraidActivity"
+	          android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+		<activity android:name="com.mopub.common.MoPubBrowser"
+	          android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+		<activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+	          android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+		<activity android:name="com.mopub.mobileads.RewardedMraidActivity"
+	          android:configChanges="keyboardHidden|orientation|screenSize"/>
+	</config-file>
+
+	<framework src="src/android/build.gradle" custom="true" type="gradleReference" target-dir="platforms/android/" />
+
+</platform>
+</plugin>

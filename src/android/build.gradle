@@ -1,0 +1,13 @@
+android {
+    repositories{
+        maven {
+           url "https://s3.amazonaws.com/moat-sdk-builds"
+        }
+    }
+    dependencies {
+		compile('com.mopub:mopub-sdk:5.0.0@aar') {
+   				 transitive = true;
+  		}
+  		compile 'com.google.ads.mediation:mopub:5.0.0.0'
+    }
+}
